@@ -1,8 +1,9 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 const ButtonComponent = (props) => {
     return (
-        <button style={{ margin: ".5em"}} onClick={props.onClickFunction}>{props.label}</button>
+        <Button variant={props.variant || "primary"} style={{ margin: ".5em"}} onClick={props.onClickFunction}>{props.label}</Button>
     )
 };
 

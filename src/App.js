@@ -5,7 +5,7 @@ import UserInput from "./components/UserInput";
 
 function App() {
   return (
-    <div className="App">
+    <div className={'container-fluid'}>
         <IncrementDecrementComponent />
         <UserInput />
     </div>
